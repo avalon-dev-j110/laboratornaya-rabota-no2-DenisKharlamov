@@ -23,4 +23,9 @@ public class Dot implements Point {
 		return new Dot((int)(Math.random() * 100), (int)(Math.random() * 100));
 	}
 
+	@Override
+	public float getArea() {
+		return 0;
+	}
+
 }
